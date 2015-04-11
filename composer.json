@@ -1,17 +1,10 @@
 {
-    "name": "kbeazer/DWP-Online",
-    "description": "This is just a test lauch using Larvel Forge.",
-    "keywords": ["package", "dependency", "autoload"],
-    "homepage": "https://github.com/kbeazer/DWP-Online/",
-    "type": "library",
-    "license": "MIT",
+    "name": "KBmac/dwp-online",
     "authors": [
         {
-            "name": "Kareem Beazer",
+            "name": "kbeazer",
             "email": "kbeazer@fullsail.edu"
         }
     ],
-    "require": {
-        "php": ">=5.3.2"
-    }
+    "require": {}
 }
