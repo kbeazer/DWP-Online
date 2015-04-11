@@ -1,26 +1,19 @@
 {
-    "name": "composer/composer",
-    "description": "Composer helps you declare, manage and install dependencies of PHP projects, ensuring you have the right stack everywhere.",
+    "name": "forge/forge",
+    "description": "This is just a test lauch using Larvel Forge.",
     "keywords": ["package", "dependency", "autoload"],
-    "homepage": "http://getcomposer.org/",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Nils Adermann",
-            "email": "naderman@naderman.de",
-            "homepage": "http://www.naderman.de"
+            "name": "Kareem Beazer",
+            "email": "kbeazer@fullsail.edu"
         },
         {
-            "name": "Jordi Boggiano",
-            "email": "j.boggiano@seld.be",
-            "homepage": "http://seld.be"
+            "name": "Jennifer Bermudez",
+            "email": "jbermudez@fullsail.edu"
         }
     ],
-    "support": {
-        "irc": "irc://irc.freenode.org/composer",
-        "issues": "https://github.com/composer/composer/issues"
-    },
     "require": {
         "php": ">=5.3.2"
     },
@@ -31,13 +24,7 @@
         "ext-zip": "Enabling the zip extension allows you to unzip archives, and allows gzip compression of all internet traffic",
         "ext-openssl": "Enabling the openssl extension allows you to access https URLs for repositories and packages"
     },
-    "autoload": {
-        "psr-0": { "Composer": "src/" }
-    },
-    "autoload-dev": {
-        "psr-0": { "Composer\\Test": "tests/" }
-    },
-    "bin": ["bin/composer"],
+    "bin": ["bin/forge"],
     "extra": {
         "branch-alias": {
             "dev-master": "1.0-dev"
