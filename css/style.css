@@ -1,7 +1,7 @@
 body{
 	margin: 0 auto;
 	font-size: 100%;
-	background: url(../images/dark_wood.png fixed);
+	background: url(../images/dark_wood.png)fixed;
 }
 p{
 	font-family: 'Source Sans Pro', sans-serif;
