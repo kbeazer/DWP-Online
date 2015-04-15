@@ -26,6 +26,9 @@ h1{
 .image{
 	max-width: 100%;
 }
+.fsLogo{
+	width: 50%;
+}
 footer p{
 	background-color: #140f09;
 	color: #efefef;
