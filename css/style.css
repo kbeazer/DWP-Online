@@ -6,3 +6,7 @@ body{
 p{
 	font-family: 'Source Sans Pro', sans-serif;
 }
+.container{
+	width: 60%;
+	background-color: #fff;
+}
