@@ -6,6 +6,11 @@ body{
 p, h2{
 	font-family: 'Source Sans Pro', sans-serif;
 }
+h1{
+	font-family: 'Michroma', sans-serif;
+	background-color: #473d24;
+	color: #ec6d2b;
+}
 .container{
 	width: 60%;
 	margin: 0 auto;
