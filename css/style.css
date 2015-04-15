@@ -13,6 +13,7 @@ p{
 }
 .displayBox{
 	width: 40%;
+	display: inline-block;
 }
 .image{
 	max-width: 100%;
