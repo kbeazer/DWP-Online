@@ -12,7 +12,8 @@ h1{
 	color: #efefef;
 	padding: 10px;
 	text-align: center;
-	vertical-align: middle;
+	vertical-align: text-top;
+	display: inline-block;
 }
 .container{
 	width: 80%;
@@ -30,6 +31,7 @@ h1{
 }
 .fsLogo{
 	width: 5%;
+	display: inline-block;
 }
 footer p{
 	background-color: #140f09;
