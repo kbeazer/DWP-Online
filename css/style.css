@@ -44,6 +44,12 @@ footer p{
 }
 
 @media (max-width: 400px){
+	.fsLogo{
+		width: 10%;
+	}
+	h1{
+		font-size: 20%;
+	}
 	.displayBox{
 		width: 100%;
 		padding-left: 0;
