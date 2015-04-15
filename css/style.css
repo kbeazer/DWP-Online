@@ -10,6 +10,8 @@ h1{
 	font-family: 'Michroma', sans-serif;
 	background-color: #473d24;
 	color: #ec6d2b;
+	padding: 10px;
+	text-align: center;
 }
 .container{
 	width: 60%;
