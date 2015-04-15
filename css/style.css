@@ -10,8 +10,8 @@ h1{
 	font-family: 'Michroma', sans-serif;
 	color: #efefef;
 	padding: 10px;
-	margin: 0 auto;
-	vertical-align: top;
+	margin-bottom: 20px;
+	vertical-align: text-bottom;
 	display: inline-block;
 }
 .container{
@@ -34,7 +34,7 @@ h1{
 .fsLogo{
 	width: 5%;
 	display: inline-block;
-	padding-top: 40px;
+	padding-top: 20px;
 }
 footer p{
 	background-color: #140f09;
