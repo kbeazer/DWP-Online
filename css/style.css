@@ -10,7 +10,6 @@ h1{
 	font-family: 'Michroma', sans-serif;
 	color: #efefef;
 	padding: 10px;
-	text-align: center;
 	vertical-align: text-top;
 	display: inline-block;
 }
@@ -21,6 +20,7 @@ h1{
 }
 .heading{
 	background-color: #140f09;
+	text-align: center;
 }
 .displayBox{
 	width: 45%;
