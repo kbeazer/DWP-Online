@@ -29,11 +29,11 @@ h1{
 }
 .image{
 	max-width: 100%;
-	margin-right: 20px;
 }
 .fsLogo{
 	width: 5%;
 	display: inline-block;
+	padding-top: 40px;
 }
 footer p{
 	background-color: #140f09;
