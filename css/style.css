@@ -10,7 +10,8 @@ h1{
 	font-family: 'Michroma', sans-serif;
 	color: #efefef;
 	padding: 10px;
-	vertical-align: text-top;
+	margin: 0 auto;
+	vertical-align: top;
 	display: inline-block;
 }
 .container{
