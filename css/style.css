@@ -8,7 +8,6 @@ p, h2{
 }
 h1{
 	font-family: 'Michroma', sans-serif;
-	background-color: #140f09;
 	color: #efefef;
 	padding: 10px;
 	text-align: center;
@@ -19,6 +18,9 @@ h1{
 	width: 80%;
 	margin: 0 auto;
 	background-color: #fff;
+}
+.heading{
+	background-color: #140f09;
 }
 .displayBox{
 	width: 45%;
