@@ -13,3 +13,6 @@ p{
 .displayBox{
 	width: 50%;
 }
+.image{
+	max-width: 100%;
+}
