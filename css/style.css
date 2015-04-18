@@ -39,7 +39,7 @@ h1{
     padding: 10px 80px;
 }
 .projects :hover{
-	background: linear-gradient(#eb6e1f, #b9591d);
+	background-color: linear-gradient(#eb6e1f, #b9591d);
 }
 .displayBox{
 	width: 45%;
