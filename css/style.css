@@ -29,9 +29,11 @@ h1{
 	margin: 0 auto;
 	line-height: 50px;
 }
+.pButton{
+	text-align: center;
+}
 .projects{
 	text-decoration: none;
-	margin: 0 auto;
 }
 .displayBox{
 	width: 45%;
