@@ -29,6 +29,9 @@ h1{
 	margin: 0 auto;
 	line-height: 50px;
 }
+.phide, .phide2, .phide3, .phide4, .phide5, .phide6, .phide7, .phide8, .phide9, .phide10{
+	display: none;
+}
 .pButton{
 	text-align: center;
 }
@@ -68,9 +71,6 @@ footer p{
 @media (max-width: 400px){
 	.container{
 		width: 100%;
-	}
-	.phide, .phide2, .phide3, .phide4, .phide5, .phide6, .phide7, .phide8, .phide9, .phide10{
-		display: none;
 	}
 	.fsLogo{
 		width: 10%;
