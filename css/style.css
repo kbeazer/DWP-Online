@@ -69,7 +69,7 @@ footer p{
 	}
 	.welcome{
 		width: 80%;
-		/*line-height: 30px;*/
+		line-height: 30px;
 	}
 	.displayBox{
 		width: 100%;
