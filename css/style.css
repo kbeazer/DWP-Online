@@ -81,6 +81,9 @@ footer p{
 	.displayBox p{
 		padding-left: 20px;
 	}
+	footer p{
+		font-size: 12px;
+	}
 
 
 } 
