@@ -34,13 +34,13 @@ h1{
 }
 .projects{
 	text-decoration: none;
-	background-color: #eb6e1f;
+	background-color: #b9591d;
 	color: #efefef;
     padding: 10px 80px;
 }
 .projects:hover{
-	box-shadow: 10px 10px 1.5px #888888;
-	background-color: #b9591d;
+	box-shadow: 5px 5px 5px #888888;
+	background-color: #eb6e1f;
 	color: #fff;
 }
 .displayBox{
