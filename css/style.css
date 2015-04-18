@@ -68,11 +68,8 @@ footer p{
 		font-size: 90%;
 	}
 	.welcome{
-		padding: 20px;
-		margin: 40px 0;
-		text-align: center;
-		border-top: .5px solid #eb6e1f;
-		border-bottom: .5px solid #eb6e1f; 
+		width: 80%;
+		/*line-height: 30px;*/
 	}
 	.displayBox{
 		width: 100%;
