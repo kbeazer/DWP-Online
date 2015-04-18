@@ -58,7 +58,9 @@ footer p{
 		font-size: 90%;
 	}
 	.welcome{
-		padding: 0 10px; 
+		padding: 0 10px;
+		margin-bottom: 0;
+		text-align: center; 
 	}
 	.displayBox{
 		width: 100%;
