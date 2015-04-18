@@ -55,7 +55,7 @@ footer p{
 		margin-top: 20px;
 	}
 	h1{
-		font-size: 50%;
+		font-size: 100%;
 	}
 	.displayBox{
 		width: 100%;
@@ -64,6 +64,7 @@ footer p{
 	.displayBox h2{
 		text-align: center;
 		background-color: #517ea1;
+		font-size: 14px;
 		color: #efefef;
 		padding: 5px;
 		margin-bottom: 0;
