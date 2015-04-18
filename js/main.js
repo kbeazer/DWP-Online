@@ -4,7 +4,7 @@ $(document).ready(function()
 	
 	$('.displayBox a').click(function(e)
 	{
-		e.preventDefault;
-		$('.phide').slideToggle();
+		e.preventDefault();
+		$('.phide').slideToggle('slow');
 	});
 });
