@@ -60,6 +60,7 @@ footer p{
 	.displayBox{
 		width: 100%;
 		padding-left: 0;
+		border-bottom: 1px solid #eb6e1f;
 	}
 	.displayBox h2{
 		text-align: center;
