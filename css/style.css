@@ -23,6 +23,10 @@ h1{
 	background-color: #140f09;
 	text-align: center;
 }
+.projects{
+	text-decoration: none;
+	margin: 0 auto;
+}
 .displayBox{
 	width: 45%;
 	display: inline-block;
@@ -58,6 +62,7 @@ footer p{
 		font-size: 90%;
 	}
 	.welcome{
+		color: #959595;
 		padding: 20px;
 		margin: 40px 0;
 		text-align: center;
