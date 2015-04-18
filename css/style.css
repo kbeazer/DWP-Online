@@ -60,6 +60,8 @@ footer p{
 	.displayBox{
 		width: 100%;
 		padding-left: 0;
+	}
+	.displayBox img{
 		border-bottom: 1px solid #eb6e1f;
 	}
 	.displayBox h2{
@@ -69,6 +71,7 @@ footer p{
 		color: #efefef;
 		padding: 5px;
 		margin-bottom: 0;
+		border-top: 1px solid #eb6e1f;
 	}
 	.displayBox p{
 		padding-left: 20px;
