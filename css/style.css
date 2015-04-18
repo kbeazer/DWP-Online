@@ -31,6 +31,7 @@ h1{
 }
 .phide, .phide2, .phide3, .phide4, .phide5, .phide6, .phide7, .phide8, .phide9, .phide10{
 	margin: 0;
+	height: 20px;
 	display: none;
 }
 .pButton{
