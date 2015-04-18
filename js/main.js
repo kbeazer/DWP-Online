@@ -5,6 +5,6 @@ $(document).ready(function()
 	$('.image').click(function(e)
 	{
 		e.preventDefault;
-		$('phide').slideToggle();
+		$('.phide').slideToggle();
 	});
 });
