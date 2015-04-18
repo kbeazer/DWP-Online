@@ -65,6 +65,8 @@ footer p{
 		text-align: center;
 		background-color: #517ea1;
 		color: #efefef;
+		padding: 5px;
+		margin-bottom: 0;
 	}
 	.displayBox p{
 		padding-left: 20px;
