@@ -39,7 +39,7 @@ h1{
     padding: 10px 80px;
 }
 .projects:hover{
-	background-color: linear-gradient(#eb6e1f, #b9591d);
+	background-color: #b9591d;
 }
 .displayBox{
 	width: 45%;
@@ -59,6 +59,7 @@ footer p{
 	color: #efefef;
 	padding: 10px;
 	text-align: center;
+	margin-top: 80px;
 }
 
 @media (max-width: 400px){
