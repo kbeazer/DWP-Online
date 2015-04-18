@@ -47,6 +47,9 @@ footer p{
 	.container{
 		width: 100%;
 	}
+	.phide{
+		display: none;
+	}
 	.fsLogo{
 		width: 10%;
 		margin-top: 20px;
@@ -58,7 +61,12 @@ footer p{
 		width: 100%;
 		padding-left: 0;
 	}
-	.displayBox h2, .displayBox p{
+	.displayBox h2{
+		text-align: center;
+		background-color: #517ea1;
+		color: #efefef;
+	}
+	.displayBox p{
 		padding-left: 20px;
 	}
 
