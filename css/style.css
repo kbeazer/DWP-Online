@@ -24,8 +24,10 @@ h1{
 }
 .welcome{
 	width: 50%;
-	padding: 40px 0;
+	padding: 50px 0;
 	color: #959595;
+	margin: 0 auto;
+	line-height: 50px;
 }
 .projects{
 	text-decoration: none;
