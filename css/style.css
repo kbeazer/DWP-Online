@@ -39,7 +39,7 @@ h1{
     padding: 10px 80px;
 }
 .projects:hover{
-	box-shadow: 10px 10px 5px #888888;
+	box-shadow: 10px 10px 1.5px #888888;
 	background-color: #b9591d;
 	color: #fff;
 }
