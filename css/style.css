@@ -81,7 +81,7 @@ footer p{
 		width: 100%;
 	}
 	.webLogo{
-		width: 100%;
+		width: 90%;
 	}
 	h1{
 		font-size: 90%;
@@ -89,6 +89,12 @@ footer p{
 	.welcome{
 		width: 80%;
 		line-height: 30px;
+	}
+	nav ul li{
+		list-style: none;
+		text-decoration: none;
+		background-color: #295679;
+		padding: 20px;
 	}
 	.projects{
 		padding: 20px 80px;
