@@ -7,7 +7,7 @@ p, a, h2{
 }
 h1{
 	font-family: 'Michroma', sans-serif;
-	color: #efefef;
+	/*color: #efefef;*/
 	padding: 10px;
 	margin-bottom: 20px;
 	vertical-align: text-bottom;
@@ -16,11 +16,14 @@ h1{
 .container{
 	width: 80%;
 	margin: 0 auto;
-	background-color: #fff;
+	/*background-color: #fff;*/
 }
 .heading{
 	background-color: #140f09;
 	text-align: center;
+}
+.hide{
+	display: none;
 }
 .welcome{
 	width: 50%;
