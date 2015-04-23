@@ -2,7 +2,7 @@ body{
 	margin: 0 auto;
 	font-size: 100%;
 }
-p, a, h2{
+p, a, h2, form{
 	font-family: 'Source Sans Pro', sans-serif;
 }
 h1{
@@ -111,7 +111,7 @@ footer p{
 	}
 	nav ul{
 		padding: 0;
-		margin-top: 40px;
+		margin-top: 20px;
 	}
 	nav ul a{
 		text-decoration: none;
@@ -124,16 +124,47 @@ footer p{
 		margin-bottom: 1px;
 		display: inline-block;
 		text-align: left;
-		width: 100%;
+		width: 90%;
 		position: relative;
 	}
-	nav ul li:hover{
+	nav ul li:hover, .submit:hover{
 		background-color: #5582a5;
+		color: #fff;
 	}
 	.arrow{
 		width: 4%;
 		position: absolute;
-		left: 80%;
+		left: 90%;
+	}
+	form{
+		width: 80%;
+		padding-top: 20px;
+		margin: 0 auto;
+		text-align: left;
+	}
+	form label{
+		width: 100%;
+		color: #959595;
+	}
+	form input, textarea{
+		display: inline;
+		padding: 5px 5px;
+		margin: 10px 0;
+		width: 90%;
+	}
+	.submit{
+		width: 100px;
+		padding: 10px;
+		background-color: #295679;
+		color: #efefef;
+		border: none;
+	}
+	.socialMedia{
+		text-align: center;
+		padding-bottom: 10px;
+	}
+	.socialMedia a{
+		padding: 0 10px;
 	}
 	.projects{
 		padding: 20px 80px;

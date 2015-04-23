@@ -1,5 +1,7 @@
 $(document).ready(function()
 {
+	var $arrow = 'down';
+
 	$('.box1').click(function(e)
 	{
 		e.preventDefault();
@@ -63,6 +65,80 @@ $(document).ready(function()
 	$('.messDisplay').click(function(e)
 	{
 		e.preventDefault();
-		$('.welcome').slideToggle('slow');
+
+		if($arrow == 'up')
+		{
+			$('.image1').attr('src', 'images/down-arrow.png');
+			$('.welcome').slideToggle('slow');
+			$arrow = 'down';
+		}
+		else
+		{
+			$('.welcome').slideToggle('slow');
+			$('.image1').attr('src', 'images/up-arrow.png');
+			$arrow = 'up';
+		}	
 	});
+
+	$('.contact').click(function(e)
+	{
+		e.preventDefault();
+
+		if($arrow == 'up')
+		{
+			$('.image3').attr('src', 'images/down-arrow.png');
+			$('.messForm').slideToggle('slow');
+			$arrow = 'down';
+		}
+		else
+		{
+			$('.messForm').slideToggle('slow');
+			$('.image3').attr('src', 'images/up-arrow.png');
+			$arrow = 'up';
+		}	
+	});
+
+	$('.link1').hover(function(){
+		if($arrow == 'up')
+		{
+			$('.image1').attr('src', 'images/up-arrowA.png');
+		}
+		else
+		{
+			$('.image1').attr('src', 'images/down-arrowA.png');
+		}
+	}, function(){
+		if($arrow == 'up')
+		{
+			$('.image1').attr('src', 'images/up-arrow.png');
+		}
+		else
+		{
+			$('.image1').attr('src', 'images/down-arrow.png');
+		}
+	})
+	$('.link2').hover(function(){
+		$('.image2').attr('src', 'images/down-arrowA.png');
+	}, function(){
+		$('.image2').attr('src', 'images/down-arrow.png');
+	})
+	$('.link3').hover(function(){
+		if($arrow == 'up')
+		{
+			$('.image3').attr('src', 'images/up-arrowA.png');
+		}
+		else
+		{
+			$('.image3').attr('src', 'images/down-arrowA.png');
+		}
+	}, function(){
+		if($arrow == 'up')
+		{
+			$('.image3').attr('src', 'images/up-arrow.png');
+		}
+		else
+		{
+			$('.image3').attr('src', 'images/down-arrow.png');
+		}
+	})
 });
