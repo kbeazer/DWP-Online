@@ -7,11 +7,14 @@ p, a, h2{
 }
 h1{
 	font-family: 'Michroma', sans-serif;
-	/*color: #efefef;*/
 	padding: 10px;
 	margin-bottom: 20px;
-	vertical-align: text-bottom;
-	display: inline-block;
+}
+
+.pageHeader{
+	text-align: left;
+	text-decoration: none;
+	color: #295679;
 }
 .container{
 	width: 80%;
@@ -30,6 +33,7 @@ h1{
 	color: #959595;
 	margin: 0 auto;
 	line-height: 50px;
+	text-align: left;
 }
 .phide, .phide2, .phide3, .phide4, .phide5, .phide6, .phide7, .phide8, .phide9, .phide10{
 	display: none;
@@ -68,7 +72,7 @@ footer p{
 	color: #efefef;
 	padding: 20px;
 	text-align: center;
-	margin: 20px 0 0 0;
+	margin: 0;
 }
 
 
@@ -77,8 +81,15 @@ footer p{
  /*Small Screens*/
 @media only screen{
 	/* Define mobile styles */
+ } 
+@media only screen and (max-width: 40em){
 	.container{
 		width: 100%;
+	}
+	.logoBox{
+		background: url(../images/image-back.png);
+		padding: 10px;
+		margin: 0 auto;
 	}
 	.webLogo{
 		width: 90%;
@@ -92,6 +103,7 @@ footer p{
 	}
 	nav ul{
 		padding: 0;
+		margin-top: 40px;
 	}
 	nav ul a{
 		text-decoration: none;
@@ -101,7 +113,7 @@ footer p{
 		list-style: none;
 		background-color: #295679;
 		padding: 20px;
-		margin-bottom: 2px;
+		margin-bottom: 1px;
 	}
 	nav ul li:hover{
 		background-color: #5582a5;
@@ -124,8 +136,6 @@ footer p{
 	.displayBox p{
 		padding-left: 20px;
 	}
- } 
-@media only screen and (max-width: 40em){
 	/* max-width 640px, mobile-only styles, use when QAing mobile issues */
  } 
 

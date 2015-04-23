@@ -60,4 +60,9 @@ $(document).ready(function()
 		$('.phide10').slideToggle('slow');
 	});
 
+	$('.messDisplay').click(function(e)
+	{
+		e.preventDefault();
+		$('.welcome').slideToggle('slow');
+	});
 });
