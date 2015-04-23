@@ -34,6 +34,8 @@ h1{
 	margin: 0 auto;
 	line-height: 50px;
 	text-align: left;
+	position: relative;
+	bottom: 0;
 }
 .phide, .phide2, .phide3, .phide4, .phide5, .phide6, .phide7, .phide8, .phide9, .phide10{
 	display: none;
@@ -68,11 +70,11 @@ h1{
 }
 footer p{
 	font-size: 12px;
-	background-color: #140f09;
-	color: #efefef;
-	padding: 20px;
-	text-align: center;
+	color: #959595;
+	padding: 20px 10px;
+	text-align: left;
 	margin: 0;
+	border-top: 1px solid #ccc;
 }
 
 
@@ -96,10 +98,12 @@ footer p{
 	}
 	h1{
 		margin: 10px 0;
+		border-bottom: 1px solid #ccc;
 	}
 	.tagline{
 		text-align: left;
 		padding-left: 10px;
+		color: #959595;
 	}
 	.welcome{
 		width: 80%;
@@ -118,9 +122,18 @@ footer p{
 		background-color: #295679;
 		padding: 20px;
 		margin-bottom: 1px;
+		display: inline-block;
+		text-align: left;
+		width: 100%;
+		position: relative;
 	}
 	nav ul li:hover{
 		background-color: #5582a5;
+	}
+	.arrow{
+		width: 4%;
+		position: absolute;
+		left: 80%;
 	}
 	.projects{
 		padding: 20px 80px;
