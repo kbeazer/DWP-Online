@@ -2,13 +2,17 @@ body{
 	margin: 0 auto;
 	font-size: 100%;
 }
-p, a, h2, form, textarea{
+p, a, h2, h4, form, textarea{
 	font-family: 'Source Sans Pro', sans-serif;
 }
 h1{
 	font-family: 'Michroma', sans-serif;
 	padding: 10px;
 	margin-bottom: 20px;
+}
+h3{
+	font-family: 'Michroma', sans-serif;
+	margin: 0 auto;
 }
 .pageHeader{
 	text-align: left;
@@ -114,7 +118,7 @@ footer p{
 	}
 	nav ul{
 		padding: 0;
-		margin-top: 20px;
+		margin: 10px 0;
 		-webkit-transform: translate3d(0, 0, 0);
 	}
 	nav ul a{
@@ -125,11 +129,11 @@ footer p{
 		list-style: none;
 		background-color: #295679;
 		padding: 20px;
-		margin-bottom: 1px;
 		display: inline-block;
 		text-align: left;
 		width: 90%;
 		position: relative;
+		border-bottom: 1px solid #ededed;
 	}
 	nav ul li:hover, nav ul li p:hover, .submit:hover{
 		background-color: #5582a5;
@@ -138,15 +142,16 @@ footer p{
 	.arrow{
 		width: 4%;
 		position: absolute;
-		left: 90%;
+		left: 92%;
+		bottom: 40%;
 	}
 	.projectBox{
-		background-color: #cdcdcd;
+		background-color: #ededed;
+		margin: 0 10px;
 	}
-	.projectBox h3{
+	.projectBox h4{
 		margin: 0 auto;
 		padding: 20px;
-		font-family: 'Michroma', sans-serif;
 		color: #295679;
 	}
 	.projectBox ul{
@@ -174,11 +179,15 @@ footer p{
 		width: 15%;
 		padding: 10px;
 	}
+	.formBox{
+		background-color: #fff;
+		padding: 20px;
+	}
 	form{
 		padding: 20px;
 		margin: 0 auto;
 		text-align: left;
-		background-color: #bfdfb0;
+		background-color: #ededed;
 	}
 	form label{
 		width: 100%;
@@ -201,8 +210,8 @@ footer p{
 	.messCloseIcon{
 		width: 15%;
 		position: absolute;
-		left: 80%;
-		bottom: 20px;
+		left: 78%;
+		bottom: 5%;
 	}
 	.messageText{
 		color: #295679;
