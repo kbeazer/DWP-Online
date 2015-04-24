@@ -108,6 +108,13 @@ footer p{
 	.welcome{
 		width: 80%;
 		line-height: 30px;
+		position: relative;
+	}
+	.closeIcon{
+		width: 20%;
+		position: absolute;
+		left: 80%;
+		bottom: 0;
 	}
 	nav ul{
 		padding: 0;
@@ -137,14 +144,14 @@ footer p{
 		left: 90%;
 	}
 	form{
-		width: 80%;
-		padding-top: 20px;
+		padding: 20px;
 		margin: 0 auto;
 		text-align: left;
+		background-color: #bfdfb0;
 	}
 	form label{
 		width: 100%;
-		color: #959595;
+		color: #295679;
 	}
 	form input, textarea{
 		display: inline;
