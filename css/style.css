@@ -109,7 +109,6 @@ footer p{
 		width: 80%;
 		line-height: 30px;
 		position: relative;
-		-webkit-transform: translate3d(0, 0, 0);
 	}
 	.closeIcon{
 		width: 20%;
@@ -120,6 +119,7 @@ footer p{
 	nav ul{
 		padding: 0;
 		margin-top: 20px;
+		-webkit-transform: translate3d(0, 0, 0);
 	}
 	nav ul a{
 		text-decoration: none;
@@ -144,9 +144,6 @@ footer p{
 		position: absolute;
 		left: 90%;
 	}
-	.messForm{
-		 -webkit-transform: translate3d(0, 0, 0);
-	}
 	form{
 		padding: 20px;
 		margin: 0 auto;
@@ -170,6 +167,12 @@ footer p{
 		background-color: #295679;
 		color: #efefef;
 		border: none;
+	}
+	.messCloseIcon{
+		width: 15%;
+		position: absolute;
+		left: 80%;
+		bottom: 20px;
 	}
 	.socialMedia{
 		text-align: center;

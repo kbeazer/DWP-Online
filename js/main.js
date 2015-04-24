@@ -155,4 +155,20 @@ $(document).ready(function()
 		$('.image1').attr('src', 'images/down-arrow.png');
 		$arrow = 'down';
 	});
+
+
+	$('.messCloseIcon').hover(function(){
+		$('.messCloseIcon').attr('src', 'images/closeB.png');
+	}, function(){
+		$('.messCloseIcon').attr('src', 'images/closeA.png');
+	})
+
+	$('.messCloseIcon').click(function(e)
+	{
+		e.preventDefault();
+		$('.messForm').slideToggle('slow');
+		$('.image3').attr('src', 'images/down-arrow.png');
+		$arrow = 'down';
+	});
+
 });
