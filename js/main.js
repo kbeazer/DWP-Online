@@ -1,82 +1,42 @@
 $(document).ready(function()
 {
-	var $arrow = 'down';
-
-	$('.box1').click(function(e)
-	{
-		e.preventDefault();
-		$('.phide').slideToggle('slow');
-	});
-
-	$('.box2').click(function(e)
-	{
-		e.preventDefault();
-		$('.phide2').slideToggle('slow');
-	});
-
-	$('.box3').click(function(e)
-	{
-		e.preventDefault();
-		$('.phide3').slideToggle('slow');
-	});
-
-	$('.box4').click(function(e)
-	{
-		e.preventDefault();
-		$('.phide4').slideToggle('slow');
-	});
-
-	$('.box5').click(function(e)
-	{
-		e.preventDefault();
-		$('.phide5').slideToggle('slow');
-	});
-
-	$('.box6').click(function(e)
-	{
-		e.preventDefault();
-		$('.phide6').slideToggle('slow');
-	});
-
-	$('.box7').click(function(e)
-	{
-		e.preventDefault();
-		$('.phide7').slideToggle('slow');
-	});
-
-	$('.box8').click(function(e)
-	{
-		e.preventDefault();
-		$('.phide8').slideToggle('slow');
-	});
-
-	$('.box9').click(function(e)
-	{
-		e.preventDefault();
-		$('.phide9').slideToggle('slow');
-	});
-
-	$('.box10').click(function(e)
-	{
-		e.preventDefault();
-		$('.phide10').slideToggle('slow');
-	});
-
 	$('.messDisplay').click(function(e)
 	{
 		e.preventDefault();
 
-		if($arrow == 'up')
+		if($('.welcome').is(':visible'))
 		{
-			$('.image1').attr('src', 'images/down-arrow.png');
 			$('.welcome').slideToggle('slow');
-			$arrow = 'down';
+			$('.image1').attr('src', 'images/down-arrow.png');
 		}
 		else
 		{
+			$('.projectBox').hide();
+			$('.image2').attr('src', 'images/down-arrow.png');
+			$('.messForm').hide();
+			$('.image3').attr('src', 'images/down-arrow.png');
 			$('.welcome').slideToggle('slow');
 			$('.image1').attr('src', 'images/up-arrow.png');
-			$arrow = 'up';
+		}	
+	});
+
+	$('.portfolio').click(function(e)
+	{
+		e.preventDefault();
+
+		if($('.projectBox').is(':visible'))
+		{
+			$('.projectBox').slideToggle('slow');
+			$('.image2').attr('src', 'images/down-arrow.png');
+		}
+		else
+		{
+			$('.welcome').hide();
+			$('.image1').attr('src', 'images/down-arrow.png');
+			$('.messForm').hide();
+			$('.image3').attr('src', 'images/down-arrow.png');
+			$('.projectBox').slideToggle('slow');
+			$('.image2').attr('src', 'images/up-arrow.png');
 		}	
 	});
 
@@ -84,22 +44,24 @@ $(document).ready(function()
 	{
 		e.preventDefault();
 
-		if($arrow == 'up')
+		if($('.messForm').is(':visible'))
 		{
-			$('.image3').attr('src', 'images/down-arrow.png');
 			$('.messForm').slideToggle('slow');
-			$arrow = 'down';
+			$('.image3').attr('src', 'images/down-arrow.png');
 		}
 		else
 		{
+			$('.welcome').hide();
+			$('.image1').attr('src', 'images/down-arrow.png');
+			$('.projectBox').hide();
+			$('.image2').attr('src', 'images/down-arrow.png');
 			$('.messForm').slideToggle('slow');
 			$('.image3').attr('src', 'images/up-arrow.png');
-			$arrow = 'up';
 		}	
 	});
 
 	$('.link1').hover(function(){
-		if($arrow == 'up')
+		if($('.welcome').is(':visible'))
 		{
 			$('.image1').attr('src', 'images/up-arrowA.png');
 		}
@@ -108,7 +70,7 @@ $(document).ready(function()
 			$('.image1').attr('src', 'images/down-arrowA.png');
 		}
 	}, function(){
-		if($arrow == 'up')
+		if($('.welcome').is(':visible'))
 		{
 			$('.image1').attr('src', 'images/up-arrow.png');
 		}
@@ -118,12 +80,26 @@ $(document).ready(function()
 		}
 	})
 	$('.link2').hover(function(){
-		$('.image2').attr('src', 'images/down-arrowA.png');
+		if($('.projectBox').is(':visible'))
+		{
+			$('.image2').attr('src', 'images/up-arrowA.png');
+		}
+		else
+		{
+			$('.image2').attr('src', 'images/down-arrowA.png');
+		}
 	}, function(){
-		$('.image2').attr('src', 'images/down-arrow.png');
+		if($('.projectBox').is(':visible'))
+		{
+			$('.image2').attr('src', 'images/up-arrow.png');
+		}
+		else
+		{
+			$('.image2').attr('src', 'images/down-arrow.png');
+		}
 	})
 	$('.link3').hover(function(){
-		if($arrow == 'up')
+		if($('.messForm').is(':visible'))
 		{
 			$('.image3').attr('src', 'images/up-arrowA.png');
 		}
@@ -132,7 +108,7 @@ $(document).ready(function()
 			$('.image3').attr('src', 'images/down-arrowA.png');
 		}
 	}, function(){
-		if($arrow == 'up')
+		if($('.messForm').is(':visible'))
 		{
 			$('.image3').attr('src', 'images/up-arrow.png');
 		}
@@ -152,9 +128,19 @@ $(document).ready(function()
 	{
 		$('.welcome').slideToggle('slow');
 		$('.image1').attr('src', 'images/down-arrow.png');
-		$arrow = 'down';
 	});
 
+	$('.projectClose').hover(function(){
+		$('.projectClose').attr('src', 'images/closeB.png');
+	}, function(){
+		$('.projectClose').attr('src', 'images/closeA.png');
+	})
+
+	$('.projectClose').click(function()
+	{
+		$('.projectBox').slideToggle('slow');
+		$('.image2').attr('src', 'images/down-arrow.png');
+	});
 
 	$('.messCloseIcon').hover(function(){
 		$('.messCloseIcon').attr('src', 'images/closeB.png');
@@ -166,7 +152,6 @@ $(document).ready(function()
 	{
 		$('.messForm').slideToggle('slow');
 		$('.image3').attr('src', 'images/down-arrow.png');
-		$arrow = 'down';
 	});
 
 });
