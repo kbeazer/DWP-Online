@@ -1,11 +1,3 @@
-<?php
-	session_start();
-    if (isset($_SESSION["message"])){
-        echo $_SESSION["message"];
-        unset($_SESSION["message"]);
-    }
-?>
-
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 
@@ -26,6 +18,15 @@
 			  	<div class="logoBox">
 			  		<img src="images/macbook.png" class="macbook">
 			  	</div>
+
+			  	<?php
+					session_start();
+				    if (isset($_SESSION["message"])){
+				        echo $_SESSION["message"];
+				        unset($_SESSION["message"]);
+				    }
+				?>
+				
 			  	<nav>
 			  		<ul>
 			  			<a href="#" class="messDisplay"><li class="link1"><h3>Welcome Message</h3><img src="images/down-arrow.png" class="arrow image1"></li></a>
