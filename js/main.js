@@ -141,4 +141,18 @@ $(document).ready(function()
 			$('.image3').attr('src', 'images/down-arrow.png');
 		}
 	})
+
+	$('.closeIcon').hover(function(){
+		$('.closeIcon').attr('src', 'images/closeA.png');
+	}, function(){
+		$('.closeIcon').attr('src', 'images/close.png');
+	})
+
+	$('.closeIcon').click(function(e)
+	{
+		e.preventDefault();
+		$('.welcome').slideToggle('slow');
+		$('.image1').attr('src', 'images/down-arrow.png');
+		$arrow = 'down';
+	});
 });
