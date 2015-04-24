@@ -148,9 +148,8 @@ $(document).ready(function()
 		$('.closeIcon').attr('src', 'images/close.png');
 	})
 
-	$('.closeIcon').click(function(e)
+	$('.closeIcon').click(function()
 	{
-		e.preventDefault();
 		$('.welcome').slideToggle('slow');
 		$('.image1').attr('src', 'images/down-arrow.png');
 		$arrow = 'down';
@@ -163,9 +162,8 @@ $(document).ready(function()
 		$('.messCloseIcon').attr('src', 'images/closeA.png');
 	})
 
-	$('.messCloseIcon').click(function(e)
+	$('.messCloseIcon').click(function()
 	{
-		e.preventDefault();
 		$('.messForm').slideToggle('slow');
 		$('.image3').attr('src', 'images/down-arrow.png');
 		$arrow = 'down';
