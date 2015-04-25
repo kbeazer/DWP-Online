@@ -10,7 +10,7 @@
     if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         if ($_POST["email"]) {
         	$_SESSION["message"] = '<div class="newMessage">Success!!! Your message was received!</div>';
-            $name = $_POST["name"];
+            $name = ucfirst($_POST["name"]);
             $email = $_POST["email"];
             $message = $_POST["message"];
             $query = "INSERT INTO messages (userName, email, message) VALUES (:name, :email, :message);";

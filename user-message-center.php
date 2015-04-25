@@ -13,7 +13,7 @@
     <body> 
         <div class="container">
             <div>
-                <h2>KB Creations Message Center</h2>
+                <h2 class="mcHeading">KB Creations Message Center</h2>
             </div>
             <?php
                 $user = "kareem";
