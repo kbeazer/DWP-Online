@@ -154,4 +154,11 @@ $(document).ready(function()
 		$('.image3').attr('src', 'images/down-arrow.png');
 	});
 
+	$('.homeButton').hover(function(){
+		$(this).css('backgroundColor', '#5582a5');
+		$('homeButton a').css('color', '#fff');
+	}, function(){
+		$(this).css('backgroundColor', '#295679');
+		$('homeButton a').css('color', '#efefef');
+	})
 });

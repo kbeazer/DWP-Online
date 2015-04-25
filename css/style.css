@@ -14,6 +14,20 @@ h3{
 	font-family: 'Michroma', sans-serif;
 	margin: 0 auto;
 }
+.marginAdjust{
+	margin-bottom: 0;
+}
+.homeButton{
+	margin: 0;
+	float: right;
+	background-color: #295679;
+	padding: 20px 5px;
+	border-radius: 5px 0 0 5px;
+}
+.homeButton a{
+	text-decoration: none;
+	color: #efefef;	
+}
 .pageHeader{
 	text-align: left;
 	text-decoration: none;
@@ -39,31 +53,57 @@ h3{
 	position: relative;
 	bottom: 0;
 }
-.phide, .phide2, .phide3, .phide4, .phide5, .phide6, .phide7, .phide8, .phide9, .phide10{
-	display: none;
+.projectInfo{
+	padding: 20px;
+	border-bottom: 1px solid #ccc;
 }
-.pButton{
-	text-align: center;
+.projectInfo h3{
+	color: #5582a5;
 }
-.projects{
-	text-decoration: none;
-	background-color: #b9591d;
-	color: #efefef;
-    padding: 10px 80px;
-}
-.projects:hover{
-	box-shadow: 2.5px 2.5px 5px #888888;
-	background-color: #eb6e1f;
-	color: #fff;
-}
-.displayBox{
-	width: 45%;
-	display: inline-block;
-	padding-left: 40px;
-	margin: 0;
+.projectInfo p{
+	color: #959595;
 }
 .image{
 	max-width: 100%;
+	margin: 10px auto;
+}
+.pagination{
+	display: inline-block;
+	text-align: center;
+	padding: 0;
+	margin-top: 0;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	position: relative;
+	width: 100%;
+}
+.pagination a{
+	text-decoration: none;
+	color: #efefef;
+}
+.pagination li{
+	list-style: none;
+	display: inline-block;
+	width: 39%;
+	background-color: #295679;
+	margin: 10px 0;
+	padding: 30px 20px; 
+	position: relative;
+	border-radius: 5px 5px 0 0;
+}
+.pagination img{
+	width: 10%;
+	display: inline-block;
+}
+.lArrow{
+	position: absolute;
+	left: 4%;
+	bottom: 36%;
+}
+.rArrow{
+	position: absolute;
+	right: 4%;
+	bottom: 36%;
 }
 .fsLogo{
 	width: 5%;
@@ -130,7 +170,7 @@ footer p{
 	nav ul li{
 		list-style: none;
 		background-color: #295679;
-		padding: 20px;
+		padding: 30px 20px;
 		display: inline-block;
 		text-align: left;
 		width: 90%;
