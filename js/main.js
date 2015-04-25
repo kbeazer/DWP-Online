@@ -161,4 +161,18 @@ $(document).ready(function()
 		$(this).css('backgroundColor', '#295679');
 		$('homeButton a').css('color', '#efefef');
 	})
+
+	$('.pagination li').hover(function(){
+		$(this).css('backgroundColor', '#5582a5');
+		$('pagination a').css('color', '#fff');
+	}, function(){
+		$(this).css('backgroundColor', '#295679');
+		$('pagination a').css('color', '#efefef');
+	})
+
+	$('.image').hover(function(){
+		$(this).fadeTo('slow', .5);
+	}, function(){
+		$(this).fadeTo('slow', 1);
+	})
 });

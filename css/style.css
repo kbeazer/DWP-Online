@@ -18,7 +18,7 @@ h3{
 	margin-bottom: 0;
 }
 .homeButton{
-	margin: 0;
+	margin: 0 auto;
 	float: right;
 	background-color: #295679;
 	padding: 20px 5px;
@@ -54,8 +54,16 @@ h3{
 	bottom: 0;
 }
 .projectInfo{
-	padding: 20px;
+	padding: 0 20px 20px 20px;
 	border-bottom: 1px solid #ccc;
+}
+.projectInfo h2{
+	padding: 20px;
+	background: url('../images/ballbanner.png');
+	margin: 10px 0 30px 0;
+	color: #efefef;
+	text-align: center;
+	padding-left: 80px;
 }
 .projectInfo h3{
 	color: #5582a5;
@@ -63,19 +71,22 @@ h3{
 .projectInfo p{
 	color: #959595;
 }
+.imageBox{
+	/*background-color: #cdcdcd;*/
+	padding-top: 20px;
+}
 .image{
 	max-width: 100%;
-	margin: 10px auto;
+	margin: 0 auto;
 }
 .pagination{
 	display: inline-block;
 	text-align: center;
 	padding: 0;
 	margin-top: 0;
-	border-top: 1px solid #ccc;
-	border-bottom: 1px solid #ccc;
 	position: relative;
 	width: 100%;
+	background-color: #959595;
 }
 .pagination a{
 	text-decoration: none;
@@ -84,7 +95,7 @@ h3{
 .pagination li{
 	list-style: none;
 	display: inline-block;
-	width: 39%;
+	width: 35%;
 	background-color: #295679;
 	margin: 10px 0;
 	padding: 30px 20px; 
