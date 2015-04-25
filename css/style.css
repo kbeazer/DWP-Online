@@ -247,6 +247,7 @@ footer p{
 		color: #295679;
 	}
 	form input, textarea{
+		font-size: 16px;
 		display: inline;
 		padding: 5px 5px;
 		margin: 10px 0;
@@ -254,16 +255,17 @@ footer p{
 		border: 1px solid #cdcdcd;
 	}
 	.submit{
-		width: 100px;
-		padding: 10px;
+		width: 90%;
+		padding: 20px;
 		background-color: #295679;
 		color: #efefef;
 		border: none;
+		margin-bottom: 40px;
 	}
 	.messCloseIcon{
 		width: 15%;
 		position: absolute;
-		left: 78%;
+		left: 80%;
 		bottom: 5%;
 	}
 	.messageText{
